@@ -9,10 +9,10 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col justify-center items-center">
-        <div id="home" className="w-full h-screen bg-white"></div>
-        <div id="projects" className="w-full h-screen bg-red-500"></div>
-        <div id="about" className="w-full h-screen bg-blue-500"></div>
+      <div className="snap-y snap-mandatory overflow-scroll w-screen h-screen">
+        <div id="home" className=" snap-start snap-always scroll-smooth w-full h-screen bg-white"></div>
+        <div id="projects" className=" snap-start snap-always scroll-smooth w-full h-screen bg-red-200"></div>
+        <div id="about" className=" snap-start snap-always scroll-smooth w-full h-screen bg-blue-200"></div>
       </div>
     </>
 
