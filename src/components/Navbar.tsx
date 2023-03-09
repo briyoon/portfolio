@@ -11,9 +11,9 @@ export default function Navbar() {
   return (
     <nav className="fixed left-0 top-0 m-0 w-full">
       <div className="flex flex-row justify-center items-center">
-        <a href="" onClick={(e) => smoothScroll(e, "home")} className="mx-4">Home</a>
-        <a href="" onClick={(e) => smoothScroll(e, "projects")} className="mx-4">Projects</a>
-        <a href="" onClick={(e) => smoothScroll(e, "about")} className="mx-4">About</a>
+        <a href="" title="" onClick={(e) => smoothScroll(e, "home")} className="m-4">Home</a>
+        <a href="" title="" onClick={(e) => smoothScroll(e, "projects")} className="m-4">Projects</a>
+        <a href="" title="" onClick={(e) => smoothScroll(e, "about")} className="m-4">About</a>
       </div>
     </nav>
   )
